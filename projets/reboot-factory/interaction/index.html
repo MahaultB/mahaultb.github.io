@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Bibliothèque d'animation - Reboot-Factory</title>
+	<meta charset="UTF-8" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600italic,600,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		body {
+			font-family: 'Open Sans', sans-serif;
+			background: #ECEBE6;
+			color: #ECEBE6;
+		}
+
+		h1 {
+			text-align: center;
+			text-transform: uppercase;
+			color: #666666;
+		}
+
+		button {
+			background: #ECEBE6;
+			color: #40BD9F;
+			border: 2px #40BD9F solid;
+			padding: 10px;
+			font-variant: small-caps;
+		}
+
+		main {
+			width: 350px;
+			min-height: 600px;
+			background: #40BD9F;
+			margin: 0 auto;
+			padding: 25px;
+		}
+
+		.section {
+			margin-top: 30px;
+		}
+
+		.first {
+			margin-top: 0;
+		}
+
+		.container {
+			overflow: hidden;
+		}
+
+		.element {
+			width: 100%;
+		}
+
+		.element1 {
+			-webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+			transition:         all 2s cubic-bezier(0.23, 1, 0.32, 1); 
+		}
+
+		.element--out {
+			opacity: 0;
+			padding-left: 350px;
+		}
+
+		.element--up {
+			transform: translateY(-40px);
+		}
+
+		.element2, .element3 {
+			transform: translateY(-45px);
+			-webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+			transition:         all 2s cubic-bezier(0.23, 1, 0.32, 1); 
+		}
+
+		.fade {
+			opacity: 0;
+		}
+
+		.element--down {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+
+		.left {
+			transform: translateX(-350px);
+		}
+
+		.element--right {
+			transform: translateX(0px);
+		}
+
+		.element4 {
+			-webkit-transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			transition:         all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Bibliothèque d'animation</h1>
+	</header>
+	<main>
+		<section class="section first">
+			<div class="container">
+				<div class="element element1"><p>Je suis un élément</p></div>
+				<div class="element element1"><p>moi aussi</p></div>
+				<div class="element element1"><p>ne m'oublie pas</p></div>
+				<button class="delete--btn">Faire disparaitre un élément</button>
+			</div>
+		</section>
+		<section class="section second">
+			<div class="container">
+				<div class="element element2 fade"><p>Je suis un nouvel élément</p></div>
+				<div class="element element2"><p>Je suis un élément</p></div>
+				<div class="element element2"><p>moi aussi</p></div>
+				<button class="add--btn">Faire apparaître un élément</button>
+			</div>
+		</section>
+		<section class="section third">
+			<div class="container">
+				<div class="element element3 fade left"><p>Je suis un nouvel élément</p></div>
+				<div class="element element3"><p>Je suis un élément</p></div>
+				<div class="element element3"><p>moi aussi</p></div>
+				<button class="add--btn2">Faire apparaître un élément</button>
+			</div>
+		</section>
+		<section class="section fourth">
+			<div class="container">
+				<div class="element element4"><p>Je suis un élément</p></div>
+				<div class="element element4"><p>moi aussi</p></div>
+				<div class="element element4"><p>ne m'oublie pas</p></div>
+				<button class="delete--btn2">Faire disparaitre un élément</button>
+			</div>
+		</section>
+	</main>
+
+	<script type="text/javascript">
+		(function() {
+			var btnDelete = document.getElementsByClassName("delete--btn")[0],
+				firstEle = document.getElementsByClassName("element1")[0],
+				secondEle = document.getElementsByClassName("element1")[1],
+				thirdEle = document.getElementsByClassName("element1")[2];
+
+			btnDelete.addEventListener("click", function() {
+				firstEle.classList.toggle("element--out");
+				secondEle.classList.toggle("element--up");
+				thirdEle.classList.toggle("element--up");
+			});
+		})();
+
+		(function() {
+			var btnAdd = document.getElementsByClassName("add--btn")[0],
+				firstElem = document.getElementsByClassName("element2")[0],
+				secondElem = document.getElementsByClassName("element2")[1],
+				thirdElem = document.getElementsByClassName("element2")[2],
+				fade = document.getElementsByClassName("fade")[0];
+
+			btnAdd.addEventListener("click", function() {
+				firstElem.classList.toggle("element--down");
+				secondElem.classList.toggle("element--down");
+				thirdElem.classList.toggle("element--down");
+				fade.classList.toggle("fade");
+			});
+		})();
+
+		(function() {
+			var btnAdd = document.getElementsByClassName("add--btn2")[0],
+				firstElem = document.getElementsByClassName("element3")[0],
+				secondElem = document.getElementsByClassName("element3")[1],
+				thirdElem = document.getElementsByClassName("element3")[2],
+				fade = document.getElementsByClassName("fade")[0];
+
+			btnAdd.addEventListener("click", function() {
+				firstElem.classList.toggle("element--down");
+				secondElem.classList.toggle("element--down");
+				thirdElem.classList.toggle("element--down");
+				firstElem.classList.toggle("element--right");
+				fade.classList.toggle("fade");
+			});
+
+		})();
+
+		(function() {
+			var btnDelete = document.getElementsByClassName("delete--btn2")[0],
+				firstEle = document.getElementsByClassName("element4")[0],
+				secondEle = document.getElementsByClassName("element4")[1],
+				thirdEle = document.getElementsByClassName("element4")[2];
+
+			btnDelete.addEventListener("click", function() {
+				secondEle.classList.toggle("fade");
+				thirdEle.classList.toggle("element--up");
+			});
+		})();
+	</script>
+</body>
+</html>

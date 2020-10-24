@@ -1,0 +1,313 @@
+body {
+	width: 100%;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.4;
+	color: #373737;
+	font-size: 18px;
+	background: url(img/sayagata.png);
+}
+
+h1 {
+	font-family: 'Alegreya', serif;
+	font-size: 3.375em;
+}
+
+strong {
+	font-variant: small-caps;
+	font-weight: 900;
+	color: #EF5350;
+}
+
+header {
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 10vh;
+	background: #f2f2f2;
+}
+
+	header p {
+		width: 380px;
+		margin: 0 auto;
+		font-style: italic;
+		font-size: 1.5em;
+		margin-top: 100px;
+		font-family: 'Alegreya', serif;
+	}
+
+	.maintitle {
+		background: url(img/noise.png);
+		color: #f2f2f2;
+		width: 633px;
+		margin: 0 auto;
+	}
+
+	.bordercontainer {
+		margin: 0 130px;
+		border: 10px solid #f2f2f2;
+	}
+
+
+p {
+	width: 489px;
+	margin-bottom: 50px;
+	clear: both;
+}
+
+.container {
+	width: 798px;
+}
+
+.containerLarge {
+	width: 960px;
+}
+
+.container, .containerLarge {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.quote {
+	float: right;
+	margin-top: 0;
+}
+
+.roi, .carre {
+	font-style: italic;
+}
+
+.roi {
+	font-weight: 300;
+}
+
+.carre {
+	font-weight: 900;
+}
+
+section {
+	width: 100%;
+}	
+
+	.lineland .containerLarge {
+		padding-top: 75px;
+	}
+
+	.lineland p {
+		float: right;
+		width: 552px;
+		font-style: italic;
+	    padding: 50px 52px;
+	    background: url(img/geometricals.jpg) bottom;
+	    margin: 100px 0 !important;
+	}
+
+	.lineland h1 {
+		font-size: 2.25em;
+		margin: 0;
+		font-variant: small-caps;
+	}
+
+	.line {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		font-variant: small-caps;
+	}
+
+	.cubequote {
+		font-family: 'Alegreya', serif;
+		font-weight: 600;
+	}
+
+.textoverture {
+	clear: both;
+	padding-bottom: 75px;
+}
+
+.silence {
+	background: url(img/noise.png);
+}
+
+	.silence .container {
+		height: 100vh;
+	}
+
+	.silence p:last-of-type {
+		    position: absolute;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    text-align: center;
+		    font-size: 1.5em;
+		    display: block;
+		    width: 250px;
+		    left: calc(50% - 125px);
+	}
+
+	.silence p strong {
+		border-bottom: 10px solid;
+	}
+
+.rencontre {
+	padding: 75px 0;
+}
+
+.vide {
+	background: url(img/noise.png);
+}
+
+.espace {
+	min-height: 100vh;
+	position: relative;
+}
+
+	.espace p {
+		background: url(img/sayagata.png);
+		padding: 50px;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+	}
+
+.round {
+	clear: both;
+}
+
+	.round .container {
+		min-height: 100vh;
+	}
+		.point {
+			background: url(img/noise.png);
+			color: #f2f2f2;
+			width: 700px;
+			height: 700px;
+			border-radius: 50%;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%) translateX(-50%);
+			left: 50%;
+		}
+
+			.point p {
+				margin: 0 auto;
+			}
+
+			.point p:first-of-type {
+				padding-top: 155px;
+			}
+
+			.point p:last-of-type {
+				text-align: center;
+				text-transform: uppercase;
+				padding-top: 50px;
+			}
+
+.dialogue {
+	padding-bottom: 125px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background: #f2f2f2;
+	height: 75px;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 21px 0px rgba(55,55,55,0.28);
+	-moz-box-shadow: 0px 0px 21px 0px rgba(55,55,55,0.28);
+	box-shadow: 0px 0px 21px 0px rgba(55,55,55,0.28);
+}
+
+	a {
+		text-decoration: none;
+		color: #EF5350;
+		margin-top: 25px;
+		font-variant: small-caps;
+	}
+
+	a:hover {
+		color: #C62828;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.left {
+		float: left;
+	}
+
+
+@media (max-width: 990px) {
+
+	.container {
+		width: 635px;
+	}
+
+	.containerLarge {
+		width: 798px;
+	}	
+
+	.round .container {
+		width: 100%;
+	}
+
+}
+
+
+@media (max-width: 798px) {
+
+	.container {
+		width: 80%;
+	}
+
+	.containerLarge {
+		width: 90%;
+	}	
+
+}
+
+@media (max-width: 630px) {
+
+	.maintitle {
+	    width: 100%;
+	}
+
+		.bordercontainer {
+		    margin: 0; 
+		    border: 10px solid #f2f2f2;
+		    width: 100%;
+		}
+
+	.quote {
+		float: none;
+		text-align: right;
+	}
+
+	p {
+		max-width: 100%;
+	}
+
+	.espace {
+		width: 100%;
+	}
+
+		.espace p {
+			max-width: 90%;
+			padding: 50px 20px;
+		}
+
+		.point p {
+			margin: 0 auto;
+			width: 380px;
+		}
+
+		.point p:first-of-type {
+			padding-top: 100px;
+		}
+
+	.lineland p {
+		float: none;
+		max-width: 90%;
+		padding: 30px;
+	}
+}
