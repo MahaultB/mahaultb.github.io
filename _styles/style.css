@@ -163,7 +163,7 @@ ul {
 	}
 
 header {
-	background: url('../_img/mahault.jpg') no-repeat center;
+	background: url('../img/mahault.jpg') no-repeat center;
 	position: relative;
 	background-size: cover;
 }
@@ -262,25 +262,25 @@ header {
 }
 
 .section--rethinking .img--container {
-	background: url("../_img/rethinkingBackground.jpg") no-repeat center;
+	background: url("../img/rethinkingBackground.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--billit .img--container {
-	background: url("../_img/billitBackground.jpg") no-repeat center;
+	background: url("../img/billitBackground.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--flatland .img--container {
-	background: url("../_img/flatlandBackground.jpg") no-repeat center left;
+	background: url("../img/flatlandBackground.jpg") no-repeat center left;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--controle .img--container {
-	background: url("../_img/controle.jpg") no-repeat left;
+	background: url("../img/controle.jpg") no-repeat left;
 	background-position-y: -33px; 
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -326,7 +326,7 @@ header {
 .contact--content {
 	width: 100%;
 	min-height: 100vh;
-	background: url('../_img/contact.jpg') no-repeat center;
+	background: url('../img/contact.jpg') no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	position: relative;
@@ -361,7 +361,7 @@ header {
 	display: inline-block;
 	height: 50px;
 	width: 50px;
-	background: url('../_img/sprite.png');
+	background: url('../img/sprite.png');
 	background-size: 240px;
 }
 
@@ -391,7 +391,7 @@ header {
 
 .section--analyse {
 	width: 100%;
-	background: url("../rethinking/_img/slackmockup.jpg") no-repeat center;
+	background: url("../rethinking/img/slackmockup.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	font-size: 16px;
@@ -446,102 +446,102 @@ header {
 }
 
 .section--emailing .img--container {
-	background: url("../rethinking/_img/slackemailing.jpg") no-repeat center;
+	background: url("../rethinking/img/slackemailing.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--conversation .img--container {
-	background: url("../rethinking/_img/slackconversation.jpg") no-repeat center;
+	background: url("../rethinking/img/slackconversation.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--slackbot {
 	width: 100%;
-	background: url("../rethinking/_img/slackusing.jpg") no-repeat center;
+	background: url("../rethinking/img/slackusing.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	font-size: 16px;
 }
 
 .section--problematique .img--container {
-	background: url("../billit/_img/problematique.jpg") no-repeat center;
+	background: url("../billit/img/problematique.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--besoinmobile .img--container {
-	background: url("../billit/_img/besoinmobile.jpg") no-repeat center;
+	background: url("../billit/img/besoinmobile.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--defiergo {
 	width: 100%;
-	background: url("../billit/_img/ergonomie.jpg") no-repeat center;
+	background: url("../billit/img/ergonomie.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--microcopy .img--container {
-	background: url("../billit/_img/microcopy.jpg") no-repeat center;
+	background: url("../billit/img/microcopy.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--realisation .img--container {
-	background: url("../billit/_img/billitBackground.jpg") no-repeat center;
+	background: url("../billit/img/billitBackground.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--projetcolab .img--container {
-	background: url("../flatland/_img/projetcolab.jpg") no-repeat center;
+	background: url("../flatland/img/projetcolab.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--comprendre .img--container {
-	background: url("../_img/flatlandBackground.jpg") no-repeat center;
+	background: url("../img/flatlandBackground.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--axeflatland .img--container {
-	background: url("../flatland/_img/massin.jpg") no-repeat center;
+	background: url("../flatland/img/massin.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--flatconcret {
 	width: 100%;
-	background: url("../controle/_img/concretement.jpg") no-repeat center;
+	background: url("../controle/img/concretement.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--problemControle .img--container {
-	background: url("../controle/_img/controleConclu.jpg") no-repeat center;
+	background: url("../controle/img/controleConclu.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--heroControle .img--container {
-	background: url("../controle/_img/controleChoice.jpg") no-repeat center;
+	background: url("../controle/img/controleChoice.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--testControle .img--container {
-	background: url("../controle/_img/controleLanding.jpg") no-repeat center;
+	background: url("../controle/img/controleLanding.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
 
 .section--centralControle {
 	width: 100%;
-	background: url("../_img/controle.jpg") no-repeat center;
+	background: url("../img/controle.jpg") no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 }
@@ -644,103 +644,103 @@ footer p {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
 	header {
-		background: url('../_img/mahault@2x.jpg') no-repeat center;
+		background: url('../img/mahault@2x.jpg') no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--rethinking .img--container {
-		background: url("../_img/rethinkingBackground@2x.jpg") no-repeat center;
+		background: url("../img/rethinkingBackground@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--billit .img--container {
-		background: url("../_img/billitBackground@2x.jpg") no-repeat center;
+		background: url("../img/billitBackground@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--flatland .img--container {
-		background: url("../_img/flatlandBackground@2x.jpg") no-repeat center left;
+		background: url("../img/flatlandBackground@2x.jpg") no-repeat center left;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--emailing .img--container {
-		background: url("../rethinking/_img/slackemailing@2x.jpg") no-repeat center;
+		background: url("../rethinking/img/slackemailing@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--conversation .img--container {
-		background: url("../rethinking/_img/slackconversation@2x.jpg") no-repeat center;
+		background: url("../rethinking/img/slackconversation@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--slackbot {
-		background: url("../rethinking/_img/slackusing@2x.jpg") no-repeat center;
+		background: url("../rethinking/img/slackusing@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--problematique .img--container {
-		background: url("../billit/_img/problematique@2x.jpg") no-repeat center;
+		background: url("../billit/img/problematique@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--besoinmobile .img--container {
-		background: url("../billit/_img/besoinmobile@2x.jpg") no-repeat center;
+		background: url("../billit/img/besoinmobile@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--defiergo {
-		background: url("../billit/_img/ergonomie@2x.jpg") no-repeat center;
+		background: url("../billit/img/ergonomie@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--microcopy .img--container {
-		background: url("../billit/_img/microcopy@2x.jpg") no-repeat center;
+		background: url("../billit/img/microcopy@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--realisation .img--container {
-		background: url("../billit/_img/billitBackground@2x.jpg") no-repeat center;
+		background: url("../billit/img/billitBackground@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--projetcolab .img--container {
-		background: url("../flatland/_img/projetcolab@2x.jpg") no-repeat center;
+		background: url("../flatland/img/projetcolab@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--comprendre .img--container {
-		background: url("../_img/flatlandBackground@2x.jpg") no-repeat center;
+		background: url("../img/flatlandBackground@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--axeflatland .img--container {
-		background: url("../flatland/_img/massin@2x.jpg") no-repeat center;
+		background: url("../flatland/img/massin@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--flatconcret {
-		background: url("../flatland/_img/concretement@2x.jpg") no-repeat center;
+		background: url("../flatland/img/concretement@2x.jpg") no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.contact--content {
-		background: url('../_img/contact@2x.jpg') no-repeat center;
+		background: url('../img/contact@2x.jpg') no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
@@ -781,7 +781,7 @@ footer p {
 	}
 
 	.section--comprendre .img--container {
-	    background: url("../_img/flatlandBackground.jpg") no-repeat left;
+	    background: url("../img/flatlandBackground.jpg") no-repeat left;
 	    background-position-x: -160px;
 	}
 
@@ -876,7 +876,7 @@ footer p {
 
 @media (max-width: 890px) {
 	header {
-		background: url('../_img/mahault.jpg') no-repeat top center;
+		background: url('../img/mahault.jpg') no-repeat top center;
 	}
 
 	.project--content {
@@ -932,7 +932,7 @@ footer p {
 	}
 
 	.section--comprendre .img--container {
-	    background: url("../_img/flatlandBackground.jpg") no-repeat left;
+	    background: url("../img/flatlandBackground.jpg") no-repeat left;
 	    background-position-x: -290px;
 	}
 
@@ -987,7 +987,7 @@ footer p {
 	}
 
 	.section--axeflatland .project--container {
-		background: url("../flatland/_img/massin.jpg") no-repeat center;
+		background: url("../flatland/img/massin.jpg") no-repeat center;
 	    background-size: cover;
 	}
 
@@ -1064,77 +1064,77 @@ footer p {
 	}
 
 	header {
-		background: url('../_img/mahaultmin.jpg') no-repeat center;background-size: cover;
+		background: url('../img/mahaultmin.jpg') no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--billit .img--container {
-		background: url("../_img/billitBackgroundmin.jpg") no-repeat center;background-size: cover;
+		background: url("../img/billitBackgroundmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--emailing .img--container {
-		background: url("../rethinking/_img/slackemailingmin.jpg") no-repeat center;background-size: cover;
+		background: url("../rethinking/img/slackemailingmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--conversation .img--container {
-		background: url("../rethinking/_img/slackconversationmin.jpg") no-repeat center;background-size: cover;
+		background: url("../rethinking/img/slackconversationmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--slackbot {
-		background: url("../rethinking/_img/slackusingmin.jpg") no-repeat center;background-size: cover;
+		background: url("../rethinking/img/slackusingmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--problematique .img--container {
-		background: url("../billit/_img/problematiquemin.jpg") no-repeat center;background-size: cover;
+		background: url("../billit/img/problematiquemin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--besoinmobile .img--container {
-		background: url("../billit/_img/besoinmobilemin.jpg") no-repeat center;background-size: cover;
+		background: url("../billit/img/besoinmobilemin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--defiergo {
-		background: url("../billit/_img/ergonomiemin.jpg") no-repeat center;background-size: cover;
+		background: url("../billit/img/ergonomiemin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--microcopy .img--container {
-		background: url("../billit/_img/microcopymin.jpg") no-repeat center;background-size: cover;
+		background: url("../billit/img/microcopymin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--realisation .img--container {
-		background: url("../billit/_img/billitBackgroundmin.jpg") no-repeat center;background-size: cover;
+		background: url("../billit/img/billitBackgroundmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--projetcolab .img--container {
-		background: url("../flatland/_img/projetcolabmin.jpg") no-repeat center;background-size: cover;
+		background: url("../flatland/img/projetcolabmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--comprendre .img--container {
-		background: url("../_img/flatlandBackgroundmin.jpg") no-repeat center;background-size: cover;
+		background: url("../img/flatlandBackgroundmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--axeflatland .img--container {
-		background: url("../flatland/_img/massinmin.jpg") no-repeat center;background-size: cover;
+		background: url("../flatland/img/massinmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.section--flatconcret {
-		background: url("../flatland/_img/concretementmin.jpg") no-repeat center;background-size: cover;
+		background: url("../flatland/img/concretementmin.jpg") no-repeat center;background-size: cover;
 		-webkit-background-size: cover;
 	}
 
 	.contact--content {
-		background: url('../_img/contact.jpg') no-repeat center;
+		background: url('../img/contact.jpg') no-repeat center;
 		background-size: cover;
 		-webkit-background-size: cover;
 	}
